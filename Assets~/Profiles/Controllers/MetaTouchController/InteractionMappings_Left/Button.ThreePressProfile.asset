@@ -19,12 +19,11 @@ MonoBehaviour:
     inputType: 7
     inputAction:
       profileGuid: 399335ccc89c4d12b79f3539ca7771db
-      id: 2
-      description: Menu
+      id: 17
+      description: X_A
       axisConstraint: 2
     keyCode: 332
     inputName: X
     axisCodeX: 
     axisCodeY: 
     inputProcessors: []
-  pointerProfiles: []
