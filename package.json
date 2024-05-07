@@ -2,6 +2,7 @@
   "name": "com.realitytoolkit.metaplatform",
   "displayName": "RealityToolkit.MetaPlatform",
   "description": "The Meta platform module for the Reality Toolkit by the Reality Collective.",
+  "version": "1.0.0-pre.13",
   "documentationUrl": "https://www.realitytoolkit.io/",
   "changelogUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/releases",
   "licensesUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/blob/main/LICENSE.md",
@@ -17,11 +18,10 @@
     "oculus",
     "quest"
   ],
-  "version": "1.0.0-pre.13",
   "unity": "2022.3",
-  "homepage": "https://github.com/realitycollective",
+  "homepage": "https://realitytoolkit.io",
   "bugs": {
-    "url": "https://github.com/realitycollective/realitytoolkit.dev/issues"
+    "url": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/issues"
   },
   "license": "MIT",
   "repository": {
@@ -33,9 +33,12 @@
     "email": "realitycollectivedev@gmail.com",
     "url": "https://github.com/realitycollective"
   },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
   "dependencies": {
-    "com.realitytoolkit.core": "1.0.0-pre.47",
-    "com.realitytoolkit.player": "1.0.4-pre.3",
+    "com.realitytoolkit.core": "1.0.0-pre.48",
+    "com.realitytoolkit.player": "1.0.4",
     "com.realitytoolkit.boundary": "1.0.0-pre.2",
     "com.unity.xr.oculus": "4.2.0"
   },

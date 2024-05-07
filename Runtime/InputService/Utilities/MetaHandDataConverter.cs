@@ -1,15 +1,15 @@
 ﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using RealityCollective.Definitions.Utilities;
-using RealityCollective.Extensions;
 using RealityCollective.ServiceFramework.Services;
+using RealityCollective.Utilities.Extensions;
 using RealityToolkit.Definitions.Devices;
+using RealityToolkit.Input.Definitions;
 using RealityToolkit.Input.Hands;
 using RealityToolkit.Input.Hands.Utilities;
 using RealityToolkit.MetaPlatform.InputService.Extensions;
 using RealityToolkit.MetaPlatform.Plugins;
-using RealityToolkit.Player.Interfaces;
+using RealityToolkit.Player;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -153,7 +153,7 @@ namespace RealityToolkit.MetaPlatform.InputService.Utilities
         private Pose GetJointPose(Handedness handedness, OculusApi.Bone bone)
         {
             // The Pinky/Thumb 1+ bones depend on the Pinky/Thumb 0 bone
-            // to be available, which the XRTK hand tracking does not use. We still have to compute them to
+            // to be available, which the Reality Toolkit hand tracking does not use. We still have to compute them to
             // be able to resolve pose relation dependencies.
             if (bone.Id == OculusApi.BoneId.Hand_Thumb1)
             {
