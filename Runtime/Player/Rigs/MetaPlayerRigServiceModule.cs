@@ -3,11 +3,10 @@
 
 using RealityCollective.ServiceFramework.Attributes;
 using RealityToolkit.MetaPlatform.Plugins;
-using RealityToolkit.Player.Definitions;
-using RealityToolkit.Player.Interfaces;
-using RealityToolkit.Player.Modules;
+using RealityToolkit.Player;
+using RealityToolkit.Player.Rigs;
 
-namespace RealityToolkit.MetaPlatform.PlayerService
+namespace RealityToolkit.MetaPlatform.Player.Rigs
 {
     [RuntimePlatform(typeof(MetaPlatform))]
     [System.Runtime.InteropServices.Guid("83EFF552-ADF4-47C8-AD53-DF7406856D3F")]

@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using RealityCollective.Definitions.Utilities;
+using RealityToolkit.Input.Definitions;
 using RealityToolkit.MetaPlatform.Plugins;
 using UnityEngine;
 
@@ -10,7 +10,7 @@ namespace RealityToolkit.MetaPlatform.InputService.Extensions
     public static class HandednessExtensions
     {
         /// <summary>
-        /// Converts an <see cref="OculusApi.Controller"/> mask to a XRTK <see cref="Handedness"/>.
+        /// Converts an <see cref="OculusApi.Controller"/> mask to a Reality Toolkit <see cref="Handedness"/>.
         /// </summary>
         /// <param name="controller">Controller mask.</param>
         /// <returns>Handedness.</returns>

@@ -1,9 +1,9 @@
 ﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using RealityCollective.Extensions;
 using RealityCollective.ServiceFramework.Definitions.Platforms;
 using RealityCollective.ServiceFramework.Interfaces;
+using RealityCollective.Utilities.Extensions;
 using RealityToolkit.MetaPlatform.Plugins;
 using System.Linq;
 using Unity.XR.Oculus;
