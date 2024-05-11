@@ -39,3 +39,10 @@ jobs:
       unityversion: ${{ needs.Validate-Unity.outputs.unityeditorversion }}
       dependencies: '[{"development": "github.com/realitycollective/com.realitycollective.buildtools.git"},{"development": "github.com/realitycollective/com.realitytoolkit.core.git"},{"development": "github.com/realitycollective/com.realitycollective.utilities.git"},{"development": "github.com/realitycollective/com.realitycollective.service-framework.git"},{"development": "github.com/realitycollective/com.realitytoolkit.player.git"},{"development": "github.com/realitycollective/com.realitytoolkit.boundary.git"}]'
     secrets: inherit
+
+  Build-Complete:
+    runs-on: ubuntu-latest
+    name: Build completion task
+    needs: Run-Unit-Tests
+    steps: 
+      - run: echo "Build Complete"
