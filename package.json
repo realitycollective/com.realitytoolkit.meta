@@ -39,7 +39,7 @@
   "dependencies": {
     "com.realitytoolkit.core": "1.0.0-pre.48",
     "com.realitytoolkit.player": "1.0.4",
-    "com.realitytoolkit.boundary": "1.0.0-pre.2",
+    "com.realitytoolkit.boundary": "1.0.0-pre.4",
     "com.unity.xr.oculus": "4.2.0"
   },
   "profiles": [
