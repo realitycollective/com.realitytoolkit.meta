@@ -70,7 +70,7 @@ namespace RealityToolkit.MetaPlatform.InputService
         }
 
         /// <inheritdoc />
-        public override void Disable()
+        public override void Destroy()
         {
             foreach (var activeController in activeControllers)
             {
