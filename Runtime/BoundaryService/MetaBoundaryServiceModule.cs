@@ -1,4 +1,4 @@
-// Copyright (c) Reality Collective. All rights reserved.
+﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 using RealityCollective.ServiceFramework.Attributes;
@@ -38,10 +38,8 @@ namespace RealityToolkit.MetaPlatform.BoundaryService
         public bool IsPlatformConfigured => OculusApi.GetBoundaryConfigured();
 
         /// <inheritdoc />
-        public override void Enable()
+        public override void Start()
         {
-            base.Enable();
-
             boundarySystem.SetupBoundary(this);
         }
 
