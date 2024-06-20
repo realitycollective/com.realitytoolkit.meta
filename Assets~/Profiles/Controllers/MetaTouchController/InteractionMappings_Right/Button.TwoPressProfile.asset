@@ -18,13 +18,11 @@ MonoBehaviour:
     axisType: 2
     inputType: 7
     inputAction:
-      profileGuid: 00000000000000000000000000000000
-      id: 0
-      description: None
-      axisConstraint: 0
-    keyCode: 331
+      profileGuid: 399335ccc89c4d12b79f3539ca7771db
+      id: 18
+      description: Y_B
+      axisConstraint: 2
     inputName: B
     axisCodeX: 
     axisCodeY: 
     inputProcessors: []
-  pointerProfiles: []
