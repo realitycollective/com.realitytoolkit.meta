@@ -3,7 +3,7 @@
   "displayName": "RealityToolkit.MetaPlatform",
   "description": "The Meta platform module for the Reality Toolkit by the Reality Collective.",
   "version": "1.0.0-pre.18",
-  "documentationUrl": "https://www.realitytoolkit.io/",
+  "documentationUrl": "https://realitytoolkit.realitycollective.net/",
   "changelogUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/releases",
   "licensesUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/blob/main/LICENSE.md",
   "keywords": [
@@ -19,7 +19,7 @@
     "quest"
   ],
   "unity": "2022.3",
-  "homepage": "https://realitytoolkit.io",
+  "homepage": "https://realitytoolkit.realitycollective.net/",
   "bugs": {
     "url": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/issues"
   },
