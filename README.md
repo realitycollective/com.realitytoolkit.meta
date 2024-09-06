@@ -2,7 +2,7 @@
 
 ![com.realitytoolkit.metaplatform](https://github.com/realitycollective/realitycollective.logo/blob/main/RealityToolkit/RepoBanners/com.realitytoolkit.metaplatform.png?raw=true)
 
-The Meta platform components for the Reality Toolkit. This package enables your [Reality Toolkit](https://www.realitytoolkit.io/) based project to run on Meta devices.
+The Meta platform components for the Reality Toolkit. This package enables your [Reality Toolkit](https://realitytoolkit.realitycollective.net/) based project to run on Meta devices.
 
 [![openupm](https://img.shields.io/npm/v/com.realitytoolkit.metaplatform?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.realitytoolkit.metaplatform/) [![Discord](https://img.shields.io/discord/597064584980987924.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/hF7TtRCFmB)
 [![Publish main branch and increment version](https://github.com/realitycollective/com.realitytoolkit.metaplatform/actions/workflows/main-publish.yml/badge.svg)](https://github.com/realitycollective/com.realitytoolkit.metaplatform/actions/workflows/main-publish.yml)
@@ -33,4 +33,4 @@ This option will be available soon.
 
 ## Getting Started
 
-Check the ["Getting Started"](https://www.realitytoolkit.io/) documentation for the Reality Toolkit and to learn more about this module.
+Check the ["Getting Started"](https://realitytoolkit.realitycollective.net/) documentation for the Reality Toolkit and to learn more about this module.
