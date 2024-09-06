@@ -2,7 +2,7 @@
   "name": "com.realitytoolkit.metaplatform",
   "displayName": "RealityToolkit.MetaPlatform",
   "description": "The Meta platform module for the Reality Toolkit by the Reality Collective.",
-  "version": "1.0.0-pre.18",
+  "version": "1.0.0-pre.19",
   "documentationUrl": "https://realitytoolkit.realitycollective.net/",
   "changelogUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/releases",
   "licensesUrl": "https://github.com/realitycollective/com.realitytoolkit.metaplatform/blob/main/LICENSE.md",
