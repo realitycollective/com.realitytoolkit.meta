@@ -37,9 +37,9 @@
     "registry": "https://package.openupm.com"
   },
   "dependencies": {
-    "com.realitytoolkit.core": "1.0.0-pre.57",
-    "com.realitytoolkit.player": "1.0.5-pre.6",
-    "com.realitytoolkit.boundary": "1.0.0-pre.5",
+    "com.realitytoolkit.core": "1.0.0-pre.72",
+    "com.realitytoolkit.player": "1.0.5",
+    "com.realitytoolkit.boundary": "1.0.0-pre.6",
     "com.unity.xr.oculus": "4.2.0"
   },
   "profiles": [
